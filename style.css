@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+.container{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#points{
+    margin: 0px 0px 0px 10px;
+}
+button{
+    margin: 0px 2px 0px 2px;
+}
+input{
+    width: 50px;
+    margin-left: 170px;
+}
+#rules{
+    background-color: aquamarine;
+    padding: 0px 12px 12px 12px;
+}

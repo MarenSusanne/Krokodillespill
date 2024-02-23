@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="outerContainer">
+        <div class="container">
+            <div class="text">Poeng:</div>
+            <div class="text" id="points">0</div>
+        </div>
+        <div>
+            <img src="73da3dc6ff180ea1740e39a88b85f8c9.png" height="400px">
+            <div class="text" id="rndNumber1"> </div>
+            <input class="text" id="answer">
+            <div class="text" id="rndNumber2"> </div>
+            <div class="container">
+                <button class="text" onclick="checkAnswer()">Submit</button>
+                <button class="text" onclick="newNumbers()">Reset</button>
+            </div>
+        </div>
+        
+    </div>
+    <div id="rules">
+        <h2>Regler:</h2>
+        <div>Bruk < , > eller = for å si om det øverste tallet </br> er større, mindre eller er lik som det nederste tallet.</div>
+        <div>Ved riktig svar, får du 1 poeng.</div>
+        <div>Ved feil svar, mister du 1 poeng.</div>
+        <div>Trykk på Reset for å få nye tall.</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
